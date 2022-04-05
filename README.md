@@ -21,4 +21,17 @@ This is written in markdown language.
 More information on GitHub Pages can be found [here](https://pages.github.com/)
 ![](Actuarial.gif)
 
-testing
+Rarita’s football players has found moderate success in the international scene of football however not when
+representing Rarita as a nation. After recognising competitive sports team generally have benefits for the country’s
+economy and global visibility, Rarita had explored ideas for creating a national team to participate in the
+international Football and Sporting Association (FSA) League.
+
+The Rarita national team had been developed with the objective for a high probability for winning the Football and
+Sporting Association (FSA) League and to have a positive impact on Rarita’s economy. The gradient boosting
+model was used for identifying player effectiveness after comparing several after models. A team of the best 24
+players were selected using the model, which can be accessed [here](player_data_salaries_2020.csv) (wrong file, update later)
+
+This combination of players had a high probability of 89.33% to be in the top 10 football nations in the next 5 years
+and 41.65% for winning the championship within 10 years. Moreover, the team was found to a positive impact on
+Rarita’s economy with an expected NPV of $18.742 billion and statistical evidence of increased GDP growth with a
+national football team.
