@@ -42,3 +42,31 @@ Rarita’s economy with an expected NPV of $18.742 billion and statistical evide
 national football team.
 
 
+## Page Contents
+
+[Data Cleaning Approach](##-data-cleaning)
+[Modelling](##-modelling)
+[Team Selection](##-Team-Selection)
+[Economic Impact](##-Economic-Impact)
+[Implementation Plan](##-Implementation-Plan)
+[Risks and Mitigation](##-Risks-and-Mitigation)
+
+
+## Data Cleaning 
+
+## Modelling
+
+## Team Selection 
+
+## Economic Impact
+
+## Implementation Plan
+![](Slide1.PNG)
+
+![](Slide2.PNG)
+
+![](Slide3.PNG)
+
+## Risks and Mitigation
+
+
