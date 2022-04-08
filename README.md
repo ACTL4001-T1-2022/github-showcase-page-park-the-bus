@@ -62,9 +62,7 @@ national football team.
 
 ## Implementation Plan
 ![](Slide1.PNG)
-
 ![](Slide2.PNG)
-
 ![](Slide3.PNG)
 
 ## Risks and Mitigation
