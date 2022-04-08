@@ -62,14 +62,14 @@ national football team.
 
 ## Implementation Plan
 ### Key Plan Components
-<img width="966" alt="components" src="https://user-images.githubusercontent.com/103094467/162359679-9f84cc73-04bd-48f7-afcd-c3773b51a216.png">
+<img width="400" alt="components" src="https://user-images.githubusercontent.com/103094467/162359679-9f84cc73-04bd-48f7-afcd-c3773b51a216.png">
 
 ### Implementation Timeline
-<img width="1043" alt="timeline" src="https://user-images.githubusercontent.com/103094467/162359744-f80414e4-a78f-4904-b9f2-6dceb945c86e.png">
+<img width="700" alt="timeline" src="https://user-images.githubusercontent.com/103094467/162359744-f80414e4-a78f-4904-b9f2-6dceb945c86e.png">
 
 ### Revenue, Expense and Profit Projections
-<img width="669" alt="table" src="https://user-images.githubusercontent.com/103094467/162359764-f27abe66-a7a8-4b65-b4a5-6ce4f93d333c.png">
-<img width="541" alt="graph" src="https://user-images.githubusercontent.com/103094467/162359758-9eb05b3f-4a62-442e-8446-431bedd5727f.png">
+<img width="300" alt="table" src="https://user-images.githubusercontent.com/103094467/162359764-f27abe66-a7a8-4b65-b4a5-6ce4f93d333c.png">
+<img width="400" alt="graph" src="https://user-images.githubusercontent.com/103094467/162359758-9eb05b3f-4a62-442e-8446-431bedd5727f.png">
 
 * Average revenues and expenses were determined with 10 000 simulations of Rarita rankings and their projected financial impacts 
 
