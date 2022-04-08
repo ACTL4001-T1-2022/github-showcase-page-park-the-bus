@@ -62,7 +62,8 @@ national football team.
 
 ## Implementation Plan
 ###### Key Components of the Plan
-![](Slide1.PNG)
+<img width="966" alt="components" src="https://user-images.githubusercontent.com/103094467/162359679-9f84cc73-04bd-48f7-afcd-c3773b51a216.png">
+
 ###### Implementation Timeline
 ![](Slide2.PNG)
 ###### Revenue, Expense and Profit Projections
