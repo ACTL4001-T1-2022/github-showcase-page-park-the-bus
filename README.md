@@ -53,6 +53,15 @@ national football team.
 
 
 ## Data Cleaning 
+The data provided were useful for preliminary analysis of player statistics, but were limited by size and quality. There were only 488 players in the tournament dataset where most of the analysis was conducted. When analysing the effects of different attributes on player effectiveness, nation rank was used as the proxy for the objective measure of a players’ effectiveness. It was found that whilst tournament data contained national ranks, the larger pool of teams in the league did not have a similar measure for performance. Therefore, the analysis was conducted using the smaller league dataset which resulted in a low sample count that reduced the effectiveness of the model. Moreover, the data provided only had two years’ worth. Increasing the number of players or increasing the number of years in the dataset could be useful for improving the validity of the model. 
+
+Missing data was prevalent throughout the given dataset with that reduced the quality of the data. The players were analysed separately by position (DF, MF, FW or GK) and any player with multiple player positions were analysed in both respective datasets. The missing data was imputed by substituting the average value of the specific position. However, the majority of goalkeepers were missing shooting, passing and defence data in the tournament dataset, making imputation ineffective. Hence the GK model was limited on just goalkeeping attributes to determine player effectiveness.
+
+Dirty data, such as values below zero or above 100 as a percentage, were bounded between sensible minimum and maximum values. Values below zero were set as exactly zero while values above 100 were set as 100. 
+
+A major assumption when selecting players is that the players are independent from one another. Teamwork is very important in reality, but it was not considered in our model because there is insufficient data to separate the effects of good team chemistry and good individual attributes on successful team performance. Moreover, Rarita can build teamwork over time when the players train and play together in the national team, so individual attributes were deemed more important.
+
+It must also be noted that team selection is a dynamic process and the players selected in this report are only for the current year. In the future, the model must be updated with the latest data and players selected accordingly. As Rarita plays more games in the tournament, performance in the tournament itself should be a major factor in determining if a player should be retained, probably more so than implied by league data.
 
 ## Modelling
 
