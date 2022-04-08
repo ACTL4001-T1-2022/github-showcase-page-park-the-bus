@@ -61,8 +61,11 @@ national football team.
 ## Economic Impact
 
 ## Implementation Plan
+###### Key Components of the Plan
 ![](Slide1.PNG)
+###### Implementation Timeline
 ![](Slide2.PNG)
+###### Revenue, Expense and Profit Projections
 ![](Slide3.PNG)
 
 ## Risks and Mitigation
