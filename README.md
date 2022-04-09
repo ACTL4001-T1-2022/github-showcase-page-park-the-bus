@@ -81,7 +81,7 @@ Code for modelling can be accessed [here](SOA-GBM-Model.md).
 
 To determine the net present value, revenues, expenses and profits of the firm, interest and inflation rates, extensive modelling was undertaken using time series models for interest and inflation rates (ARIMA models), forecasting of different groups of revenues/expenses individually and through the creation of an exponential externality factor.
 
-![](xslide1.png)
+![The Modelling](xSlide1.PNG)
 
 
 An example of 1000 simulations of net present value, reveneues, expenses, profits and financial rates [here](ThousandSimulations.csv)
