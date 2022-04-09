@@ -26,6 +26,9 @@ More information on GitHub Pages can be found [here](https://pages.github.com/)
 ---
 
 ## Executive Summary 
+
+![](Highlights.gif)
+
 Rarita’s football players has found moderate success in the international scene of football however not when
 representing Rarita as a nation. After recognising competitive sports team generally have benefits for the country’s
 economy and global visibility, Rarita had explored ideas for creating a national team to participate in the
@@ -40,17 +43,6 @@ This combination of players had a high probability of 89.33% to be in the top 10
 and 41.65% for winning the championship within 10 years. Moreover, the team was found to a positive impact on
 Rarita’s economy with an expected NPV of $18.742 billion and statistical evidence of increased GDP growth with a
 national football team.
-
-
-## Page Contents
-
-[Data Cleaning Approach](##-data-cleaning)
-[Modelling](##-modelling)
-[Team Selection](##-Team-Selection)
-[Economic Impact](##-Economic-Impact)
-[Implementation Plan](##-Implementation-Plan)
-[Risks and Mitigation](##-Risks-and-Mitigation)
-
 
 ## Data Cleaning 
 The data provided were useful for preliminary analysis of player statistics, but were limited by size and quality. There were only 488 players in the tournament dataset where most of the analysis was conducted. When analysing the effects of different attributes on player effectiveness, nation rank was used as the proxy for the objective measure of a players’ effectiveness. It was found that whilst tournament data contained national ranks, the larger pool of teams in the league did not have a similar measure for performance. Therefore, the analysis was conducted using the smaller league dataset which resulted in a low sample count that reduced the effectiveness of the model. Moreover, the data provided only had two years’ worth. Increasing the number of players or increasing the number of years in the dataset could be useful for improving the validity of the model. 
@@ -83,5 +75,8 @@ It must also be noted that team selection is a dynamic process and the players s
 * Average revenues and expenses were determined with 10 000 simulations of Rarita rankings and their projected financial impacts 
 
 ## Risks and Mitigation
+### Financial Risks 
+![](risks1.png)
 
-
+### Qualitative Risks 
+![](risks2.png)
