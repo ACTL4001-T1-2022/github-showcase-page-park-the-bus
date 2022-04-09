@@ -27,7 +27,7 @@ More information on GitHub Pages can be found [here](https://pages.github.com/)
 
 ## Executive Summary 
 
-![](Highlights.gif)
+![](highlights.gif)
 
 Rarita’s football players has found moderate success in the international scene of football however not when
 representing Rarita as a nation. After recognising competitive sports team generally have benefits for the country’s
