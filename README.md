@@ -79,6 +79,10 @@ Code for modelling can be accessed [here](SOA-GBM-Model.md).
 
 ## Economic Impact
 
+To determine the net present value, revenues, expenses and profits of the firm, interest and inflation rates
+
+
+An example of 1000 simulations of net present value, reveneues, expenses, profits and financial rates [here](ThousandSimulations.csv)
 ## Implementation Plan
 ### Key Plan Components
 <img width="500" alt="components" src="https://user-images.githubusercontent.com/103094467/162359679-9f84cc73-04bd-48f7-afcd-c3773b51a216.png">
