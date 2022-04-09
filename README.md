@@ -57,6 +57,24 @@ It must also be noted that team selection is a dynamic process and the players s
 
 ## Modelling
 
+To analyse the effectiveness of different players, we implemented a gradient boosting model using the tournament dataset with player stats as features and the rank of their nation in the 2021 tournament as the target.  
+
+Gradient boosting was chosen for several reasons: 
+
+* High predictive power for most tasks 
+
+* Handles datasets with many features and relatively few training examples well, as 
+
+* It does feature selection automatically, as features with little predictive power will simply be chosen less often as the splitting criterion. 
+
+* Deals with multicollinearity better than most models, as many features provided by data are interaction terms. 
+
+The package XGBoost was applied in R, automatically regularising trees built in the later iterations in order to stop overfitting.
+
+Nation rank was chosen as the target variable as it is most directly related to our objective. 4 separate models were trained for defenders, midfielders, forwards, and goalkeepers, with players who can play multiple positions being considered for each separately. The model could be used to pick the strongest players as well as make predictions for nations. To predict the rank of a nation, we computed the average model output amongst their players in each of the 4 positions respectively, then took the overall average of those 4 position averages.
+
+Code for modelling can be accessed [here](SOA-GBM-Model.md).
+
 ## Team Selection 
 
 ## Economic Impact
