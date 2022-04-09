@@ -197,7 +197,7 @@ df_importance
 xgb.plot.tree(model = df_boost_model, trees = 1)
 ```
 
-[here](Slide1.PNG)
+[here](GBM Plot.png)
 
 ### Same code for midfielders
 
