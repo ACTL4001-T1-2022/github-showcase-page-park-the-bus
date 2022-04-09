@@ -83,8 +83,19 @@ To determine the net present value, revenues, expenses and profits of the firm, 
 
 ![The Modelling](xSlide1.PNG)
 
+After constructing this model, we were able to repeat 10000 simulations to arrive at an average net present value value and a distribution of simulations as below. This let us work out both empirical and theoretical probabilties of loss and earning a certain amount of profit (as present value).
 
-An example of 1000 simulations of net present value, reveneues, expenses, profits and financial rates [here](ThousandSimulations.csv)
+![The Modelling](xSlide2.PNG)
+
+Alongside the modelling, we can use our data to determine whether or not a soccer team is a worthwhile investment in a country by how having a soccer team as himpacted thier increase in GDP per capita in the year they were included in the tournament. There is a significant difference in the average of the GDP per capita changes when a country was playing in the tournament as detailed below.
+
+![The Modelling](xSlide3.PNG)
+
+Furthermore, it is not just whether or not a team is included in the tournament, but whether they perform any good in the tournament. We can see this through a comparison below that this isn't a paramount factor to GDP per capita.
+
+![The Modelling](xSlide4.PNG)
+
+An example of 10,000 simulations of net present value, reveneues, expenses, profits and financial rates [here](ThousandSimulations.csv)
 ## Implementation Plan
 ### Key Plan Components
 <img width="500" alt="components" src="https://user-images.githubusercontent.com/103094467/162359679-9f84cc73-04bd-48f7-afcd-c3773b51a216.png">
