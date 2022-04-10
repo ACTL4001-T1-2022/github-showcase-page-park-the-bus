@@ -61,7 +61,7 @@ To analyse the effectiveness of different players, we implemented a gradient boo
 
 Gradient boosting was chosen for several reasons: 
 
-![](GBM-advantages.png)
+![](GBM-Advantages.png)
 
 The package XGBoost was applied in R, automatically regularising trees built in the later iterations in order to stop overfitting.
 
