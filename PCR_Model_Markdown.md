@@ -1,4 +1,4 @@
-SOA-PCR-Model
+PCR Model
 ================
 Nathan Ng
 2022-04-10
@@ -86,7 +86,7 @@ autoplot(Dataset_PCA, data = Dataset, colour = "Ranking", loadings = TRUE, loadi
          loadings.colour = "blue", loadings.label.colour = "blue")
 ```
 
-![](PCR_Model_Markdown_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+[Click here to see the plot.](PCA_Plot.png)
 
 #### Clean Non-numeric Variables for filtered datasets
 
