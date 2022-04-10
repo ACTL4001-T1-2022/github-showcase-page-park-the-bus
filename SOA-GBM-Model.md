@@ -481,7 +481,8 @@ mean((results$Nation.Rank.x-results$weighted_rank)^2)
 
     ## [1] 29.57723
 
-Choosing Method 1 as it has best performance
+For reference, a model with just an intercept (predict all teams have a rank of (1+24)/2=12.5) gives an MSE of 47.92.
+Method 1 was chosen as it has the best performance
 
 mean error fairly close to zero (which is what we want)
 
