@@ -48,9 +48,9 @@ Firstly, a model was both trained and applied using the tournament dataset by sp
 
 ## Team Selection 
 
-Using the model trained on the tournament dataset and applying it to the league dataset, the top players in each position were chosen (click [here](Player-Selection-Full.csv) to see the players).
+Using the model trained on the tournament dataset and applying it to the league dataset, the top players from Rarita in each position were chosen (click [here](Player-Selection-Full.csv) to see the players).
 
-The predicted ranking for each position are:
+The predicted ranking for each position and overall for Rarita are:
 
 |Position|Predicted Rank|
 |---|---|
