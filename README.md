@@ -71,7 +71,16 @@ Firstly, a model was both trained and applied using the tournament dataset by sp
 
 ## Team Selection 
 
-Using the model trained on the tournament dataset and applying it to the league dataset, these were the top players chosen, and the predicted nation rank for Rarita with this team is 5.08.
+Using the model trained on the tournament dataset and applying it to the league dataset, the top players in each position were chosen (click [here](Player-Selection-Full.csv) to see the players).
+
+The predicted ranking for each position are:
+
+|Position|Predicted Rank|
+|DF|6.5691|
+|MF|3.7112|
+|FW|4.8218|
+|GK|5.1986|
+|Overall|5.0752|
 
 Using simulations, the probability of being top 10 in 5 years is 89.33% and the probability of winning a championship within 10 years is 41.65%. Both estimates are made with conservative assumptions. 
 
