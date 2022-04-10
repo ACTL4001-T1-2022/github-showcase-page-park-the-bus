@@ -67,9 +67,15 @@ The package XGBoost was applied in R, automatically regularising trees built in 
 
 Nation rank was chosen as the target variable as it is most directly related to our objective. 4 separate models were trained for defenders, midfielders, forwards, and goalkeepers, with players who can play multiple positions being considered for each separately. The model could be used to pick the strongest players as well as make predictions for nations. To predict the rank of a nation, we computed the average model output amongst their players in each of the 4 positions respectively, then took the overall average of those 4 position averages.
 
-Code for modelling can be accessed [here](SOA-GBM-Model.md).
+Firstly, a model was both trained and applied using the tournament dataset by splitting the data into training and test sets. As that was successful, it was then trained on the full tournament dataset and used to predict on a modified version of the league dataset where values are scaled to match the tournament data. Code for modelling can be accessed [here](SOA-GBM-Model.md). 
 
 ## Team Selection 
+
+Using the model trained on the tournament dataset and applying it to the league dataset, these were the top players chosen, and the predicted nation rank for Rarita with this team is 5.08.
+
+Using simulations, the probability of being top 10 in 5 years is 89.33% and the probability of winning a championship within 10 years is 41.65%. Both estimates are made with conservative assumptions. 
+
+The total annual salary of the current players chosen is 139.42 million, which should easily be covered by Rarita’s football yearly profit which over the past 5 years was 352.16 million on average. The initial budget of 995 million on top of that can be used for one-off expenses required to start a team, staff expenses and to absorb potential shocks such as inflation. Thus, liquidity should not be an issue so non-governmental funding is not deemed necessary. 
 
 ## Economic Impact
 
