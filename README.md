@@ -50,7 +50,7 @@ Firstly, a model was both trained and applied using the tournament dataset by sp
 ### PCR Model 
 A PCR model was also used as an alternative for player selection by first modelling using an unsupervised approach which didn't produce any meaningful difference between different levels. However a supervised regression approach was then conducted however was found to be not as effective as the GBM model.
 
-More detail on the results of the PCR model can found in the code file attached [here](PCR_Model_Markdown.rd)
+More detail on the results of the PCR model can found in the code file attached [here](PCR_Model_Markdown.md)
 
 ## Team Selection 
 
