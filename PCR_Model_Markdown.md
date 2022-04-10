@@ -570,7 +570,7 @@ df2 <- merge(df2, TourTestM, by = "Group.1", all = TRUE)
 df2<- df2[-c(4,6,8)]
 colnames(df2) <- c("Nation", "True Rank", "D", "F", "G", "M")
 df2$AggregateMean <- rowMeans(df2[,c(3:6)], na.rm = TRUE)
-df2[20,2]<- 5
+df2[19,2]<- 5
 mean((df2$`True Rank`-df2$AggregateMean)^2)
 ```
 
