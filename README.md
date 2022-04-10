@@ -76,6 +76,7 @@ Using the model trained on the tournament dataset and applying it to the league 
 The predicted ranking for each position are:
 
 |Position|Predicted Rank|
+|---|---|
 |DF|6.5691|
 |MF|3.7112|
 |FW|4.8218|
