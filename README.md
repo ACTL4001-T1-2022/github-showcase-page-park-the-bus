@@ -37,7 +37,7 @@ international Football and Sporting Association (FSA) League.
 The Rarita national team had been developed with the objective for a high probability for winning the Football and
 Sporting Association (FSA) League and to have a positive impact on Rarita’s economy. The gradient boosting
 model was used for identifying player effectiveness after comparing several after models. A team of the best 24
-players were selected using the model, which can be accessed [here](player_data_salaries_2020.csv) (wrong file, update later)
+players were selected using the model, which can be accessed [here](Player-Selection.csv)
 
 This combination of players had a high probability of 89.33% to be in the top 10 football nations in the next 5 years
 and 41.65% for winning the championship within 10 years. Moreover, the team was found to a positive impact on
