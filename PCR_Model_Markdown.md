@@ -5,6 +5,9 @@ Nathan Ng
 
 Team: Part the bus 10/04/2022
 
+The following code used the data in the spreadsheet attached below: 
+[Data_Spreadsheet](Cleaned Data.xlsx)
+
 ## Training and Predicting using Tournament Dataset
 
 #### Setting file directory and random seed
