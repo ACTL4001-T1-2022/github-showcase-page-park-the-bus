@@ -37,7 +37,7 @@ international Football and Sporting Association (FSA) League.
 The Rarita national team had been developed with the objective for a high probability for winning the Football and
 Sporting Association (FSA) League and to have a positive impact on Rarita’s economy. The gradient boosting
 model was used for identifying player effectiveness after comparing several after models. A team of the best 24
-players were selected using the model, which can be accessed [here](Player-Selection.csv)
+players were selected using the model, which can be accessed [here](Player-Selection.csv).
 
 This combination of players had a high probability of 89.33% to be in the top 10 football nations in the next 5 years
 and 41.65% for winning the championship within 10 years. Moreover, the team was found to a positive impact on
@@ -67,7 +67,7 @@ The package XGBoost was applied in R, automatically regularising trees built in 
 
 Nation rank was chosen as the target variable as it is most directly related to our objective. 4 separate models were trained for defenders, midfielders, forwards, and goalkeepers, with players who can play multiple positions being considered for each separately. The model could be used to pick the strongest players as well as make predictions for nations. To predict the rank of a nation, we computed the average model output amongst their players in each of the 4 positions respectively, then took the overall average of those 4 position averages.
 
-Firstly, a model was both trained and applied using the tournament dataset by splitting the data into training and test sets. As that was successful, it was then trained on the full tournament dataset and used to predict on a modified version of the league dataset where values are scaled to match the tournament data. Code for modelling can be accessed [here](SOA-GBM-Model.md). 
+Firstly, a model was both trained and applied using the tournament dataset by splitting the data into training and test sets. As that was successful, it was then trained on the full tournament dataset and used to predict on a modified version of the league dataset where values are scaled to match the tournament data. Code for modelling can be accessed [here](SOA-GBM-Model.md). The accuracy of training a model on tournament data and using it to predict on league data is hard to evaluate as not all tournament players play in the league, but the accuracy was good for the countries with enough data (details [here](League-Prediction-Evaluation.csv)).
 
 ## Team Selection 
 
