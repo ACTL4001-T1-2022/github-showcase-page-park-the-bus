@@ -1,5 +1,3 @@
-
-
 # Team "Park the Bus" SOA Challenge Showcase 
 >By: Nicholas Nguyen, Nathan Ng, Sean Stephen, William Li and Brittanie Hsu
 ---
