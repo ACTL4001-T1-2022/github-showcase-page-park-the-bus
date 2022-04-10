@@ -34,6 +34,7 @@ To deal with missing and dirty data, several assumptions were made as highlighte
 
 ## Modelling
 
+### GBM Model 
 To analyse the effectiveness of different players, we implemented a gradient boosting model using the tournament dataset with player stats as features and the rank of their nation in the 2021 tournament as the target.  
 
 Gradient boosting was chosen for several reasons: 
@@ -45,6 +46,11 @@ The package XGBoost was applied in R, automatically regularising trees built in 
 Nation rank was chosen as the target variable as it is most directly related to our objective. 4 separate models were trained for defenders, midfielders, forwards, and goalkeepers, with players who can play multiple positions being considered for each separately. The model could be used to pick the strongest players as well as make predictions for nations. To predict the rank of a nation, we computed the average model output amongst their players in each of the 4 positions respectively, then took the overall average of those 4 position averages.
 
 Firstly, a model was both trained and applied using the tournament dataset by splitting the data into training and test sets. As that was successful, it was then trained on the full tournament dataset and used to predict on a modified version of the league dataset where values are scaled to match the tournament data. Code for modelling can be accessed [here](SOA-GBM-Model.md). The accuracy of training a model on tournament data and using it to predict on league data is hard to evaluate as not all tournament players play in the league, but the accuracy was good for the countries with enough data, with a correlation of 0.5692. Details can be seen [here](League-Prediction-Evaluation.csv), note that "DF in League" means the number of defenders in the country's national team that also play in the league, and likewise for "MF in League", "FW in League" and "GK in League".
+
+### PCR Model 
+A PCR model was also used as an alternative for player selection by first modelling using an unsupervised approach which didn't produce any meaningful difference between different levels. However a supervised regression approach was then conducted however was found to be not as effective as the GBM model.
+
+More detail on the results of the PCR model can found in the code file attached [here](PCR_Model_Markdown.rd)
 
 ## Team Selection 
 
