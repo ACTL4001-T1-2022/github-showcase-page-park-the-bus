@@ -3,8 +3,6 @@ PCR Model
 Nathan Ng
 2022-04-10
 
-# PCR Model
-
 Team: Part the bus 10/04/2022
 
 ## Training and Predicting using Tournament Dataset
