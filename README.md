@@ -72,7 +72,7 @@ The total annual salary of the current players chosen is 139.42 million, which s
 
 ## Economic Impact
 
-To determine the net present value, revenues, expenses and profits of the firm, interest and inflation rates, extensive modelling was undertaken using time series models for interest and inflation rates (ARIMA models), forecasting of different groups of revenues/expenses individually and through the creation of an exponential externality factor.
+To determine the net present value, revenues, expenses and profits of the firm, interest and inflation rates, extensive modelling was undertaken using time series models for interest and inflation rates (ARIMA models), forecasting of the different groups of revenues/expenses individually and through the creation of an exponential externality factor.
 
 ![The Modelling](xSlide1.PNG)
 
