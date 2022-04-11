@@ -74,7 +74,7 @@ The total annual salary of the current players chosen is 139.42 million, which s
 
 To determine the net present value, revenues, expenses and profits of the firm, interest and inflation rates, extensive modelling was undertaken using time series models for interest and inflation rates (ARIMA models), forecasting of the different groups of revenues/expenses individually and through the creation of an exponential externality factor.
 
-![The Modelling](xSlide6.PNG)
+![The Modelling](xSlide6.png)
 
 After constructing this model, we were able to repeat 10000 simulations to arrive at an average net present value value and a distribution of simulations as below. This let us work out both empirical and theoretical probabilties of loss and earning a certain amount of profit (as present value).
 
